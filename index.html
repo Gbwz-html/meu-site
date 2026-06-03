@@ -15,6 +15,8 @@
     
     <p>Meu vizinho Gabriel me indicou o curso gratuito do Gustavo Guanabara.</p>
     
+    <div class="centralizar-video">
+    
      <iframe width="560" height="315" 
         src="https://www.youtube.com/embed/x9sCBCXrp8E" 
         title="YouTube video player" 
@@ -24,6 +26,7 @@
         allowfullscreen>
 </iframe>
 
+</div>
     
     <p>estou fazendo este projeto com duração de 3 dias para ver como me saio e dps fazer mais projetos como esse</p>
     <p> voce ambem pode acessar minha <a href="pagina002.html" rel="next">segua pagina</a> &#x1F913;
@@ -36,6 +39,8 @@
             color: purple;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: white;
+            text-align: center;
+             margin-top: 20px;
         }
 
         hr {
@@ -58,6 +63,27 @@
             color: white;
             text-shadow: 2px 2px 4px #000000; 
 		  }
+		  
+		  .centralizar-video {
+			  display: flex;
+			  justify-content: center;
+			  margin: 20px 0;
+			  width: 100%;
+			  max-width: 100%;
+			   }
+			   
+			    @media (max-width:600px) {
+				                  font-size: 28pt;
+				                  margin-top: 30px;
+			   }
+			   
+			   				 iframe {
+				   width:
+				   height:
+				   aspect-ratio: 16 / 9;
+				   
+				   
+			   }
         
     </style>
 
